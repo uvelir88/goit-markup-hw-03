@@ -1,0 +1,241 @@
+:root {
+	/* ----------Fonts--------- */
+	--main-font: "Roboto", sans-serif;
+	--secondary-font: "Raleway", sans-serif;
+
+	/* ----------Text--------- */
+	--main-text-cl: #757575;
+	--main-title-cl: #212121;
+	--hero-text-cl: #ffffff;
+
+	/* ----------Background--------- */
+	--main-bg-cl: #2f303a;
+	--card-bg-cl: #ffffff;
+	--team-bg-cl: #f5f4fa;
+}
+
+/* ----------General--------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+.page {
+	font-family: var(--main-font);
+	letter-spacing: 0.03em;
+}
+
+.hidden-elements {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* ----------Header--------- */
+
+.logo {
+	font-family: var(--secondary-font);
+	font-size: 26px;
+	line-height: calc(31 / 26);
+	color: #000000;
+}
+
+.logo-accent {
+	color: #2196f3;
+}
+
+.main-nav {
+	font-family: var(--main-font);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.02em;
+}
+
+.nav-link {
+	color: var(--main-title-cl);
+}
+
+.contact-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.02em;
+	color: var(--main-text-cl);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	color: #2196f3;
+}
+
+.current {
+	color: #2196f3;
+}
+
+/* ----------Hero--------- */
+
+.hero {
+	background-color: var(--main-bg-cl);
+	color: var(--hero-text-cl);
+}
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: calc(60 / 44);
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+.hero-btn {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	letter-spacing: 0.06em;
+	cursor: pointer;
+	background-color: #2196f3;
+	color: var(--hero-text-cl);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: #188ce8;
+}
+/* ----------Benefits--------- */
+
+.benefits-title {
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	text-transform: uppercase;
+	color: var(--main-title-cl);
+}
+
+.text {
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	color: var(--main-text-cl);
+}
+
+/* ----------Work--------- */
+
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: calc(42 / 36);
+	text-align: center;
+	color: var(--main-title-cl);
+}
+
+/* ----------Team--------- */
+
+.team {
+	background-color: var(--team-bg-cl);
+}
+
+.section-title {
+	font-size: 36px;
+	line-height: calc(42 / 36);
+	text-align: center;
+	color: var(--main-title-cl);
+}
+
+.list-card {
+	background-color: var(--card-bg-cl);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+}
+
+.team-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(19 / 16);
+	color: var(--main-title-cl);
+}
+
+.team-text {
+	font-size: 16px;
+	line-height: calc(19 / 16);
+	color: var(--main-text-cl);
+}
+
+/* ----------Footer--------- */
+
+.footer {
+	background-color: var(--main-bg-cl);
+}
+
+.logo-footer {
+	color: #ffffff;
+}
+
+.address {
+	font-style: normal;
+}
+
+.address-map {
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	color: #ffffff;
+}
+
+.address-contact {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/* ----------Portfolio--------- */
+
+.portfolio-nav-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(26 / 16);
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-title-cl);
+	cursor: pointer;
+}
+
+.portfolio-nav-btn:hover,
+.portfolio-nav-btn:focus {
+	color: #ffffff;
+	background: #2196f3;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+}
+
+.portfolio-title {
+	font-size: 18px;
+	line-height: calc(36 / 18);
+	letter-spacing: 0.06em;
+	color: var(--main-title-cl);
+}
+
+.portfolio-card-text {
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	color: var(--main-text-cl);
+}
