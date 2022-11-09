@@ -189,6 +189,8 @@ img {
 .benefits-list {
 	display: flex;
 	gap: 30px;
+	margin: 0;
+	padding: 0;
 }
 
 .benefits-title {
@@ -208,7 +210,6 @@ img {
 /* ----------Work--------- */
 
 .work {
-	padding-top: 94px;
 	padding-bottom: 94px;
 }
 
@@ -350,20 +351,20 @@ img {
 	gap: 30px;
 }
 
+.portfolio-wrap {
+	padding: 20px 24px;
+	border: 1px solid #eeeeee;
+}
+
 .portfolio-title {
 	font-size: 18px;
 	line-height: calc(36 / 18);
 	letter-spacing: 0.06em;
 	color: var(--main-title-cl);
-	margin-top: 20px;
-	margin-bottom: 4px;
-	margin-left: 24px;
 }
 
 .portfolio-card-text {
 	font-size: 16px;
 	line-height: calc(30 / 16);
 	color: var(--main-text-cl);
-	margin-bottom: 20px;
-	margin-left: 24px;
 }
