@@ -186,6 +186,10 @@ img {
 	padding-bottom: 94px;
 }
 
+.benefits-list-item {
+	width: 270px;
+}
+
 .benefits-list {
 	display: flex;
 	gap: 30px;
@@ -288,7 +292,7 @@ img {
 }
 
 .address-list {
-	padding-top: 20px;
+	margin-top: 20px;
 }
 
 .address-item:not(:last-child) {
